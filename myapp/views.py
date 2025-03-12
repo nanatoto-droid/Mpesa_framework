@@ -13,8 +13,8 @@ def home(request):
 
 
 def token(request):
-    consumer_key = '77bgGpmlOxlgJu6oEXhEgUgnu0j2WYxA'
-    consumer_secret = 'viM8ejHgtEmtPTHd'
+    consumer_key = 'cYGzLRGMl1YMwupGCgGu4yS42AVTiYtXpsJUVugsjhpFW2H9'
+    consumer_secret = '6zWKDyiHQZbe7AXtDWMDmfFcyECj0HUzQDSOA32XddzqTmdG0cnAAappAvxcPY1N'
     api_URL = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials'
 
     r = requests.get(api_URL, auth=HTTPBasicAuth(
